@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="signup.css">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/particle.css">
+    <meta charset="utf-8">
+
+    <title>signup</title>
+    <style>
+  .form  body {
+      -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+      zoom: 0.8; /* Other non-webkit browsers */
+      zoom: 80%; /* Webkit browsers */
+  }
+
+  #logInfo p {
+    padding-bottom: 8%;
+  }
+    </style>
+  </head>
+  <body>
+    <div id="particles-js" style="overflow: hidden; overflow-y:hidden;">
+        <canvas class="particles-js-canvas-el" width="3360" height="1102" style="width: 100%; height: 100%;"></canvas>
+    </div>
+    <div class="navSelf">
+
+    </div>
+    <div class="googleform">
+
+    </div>
+
+
+    <div id="form">
+
+                <div id="logInfo">
+                    <!-- <input name="email" type="text" placeholder="Email"> -->
+                    <p>FOR REGISTRATIONS</p>
+                </div>
+                <button onclick="window.location.href='https://goo.gl/forms/SyER9GpjCoeiEyKt2'" id="submit">Internal</button>
+
+                <button onclick="window.location.href='https://goo.gl/forms/OsYLwe02cEcvCe6h2'" id="submit">External</button>
+
+                <div id="err">
+                        <p id="errNoUser">Wrong email or password</p>
+                        <p id="errServ">Server error, try again</p>
+                        <p id="errUser">All fields are important</p>
+                        <p id="loading">Loading...</p>
+                </div>
+                <!-- <p id="message"></p> -->
+            </div>
+            <div class="footerSelf">
+
+            </div>
+            <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+          <script type="text/javascript">
+            $(".navSelf").load("nav.html");
+            $(".footerSelf").load("footer.html");
+          </script>
+            <script src="javaScript/particle.js"></script>
+            <script src="javaScript/particlejson.json"></script>
+  </body>
+</html>

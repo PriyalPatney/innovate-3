@@ -1,0 +1,132 @@
+.nav-wrapper {
+  /* background-color: rgba(122, 0, 0,.62); */
+ /* background: linear-gradient(to left, #ff6600b0 2%, #4b008bd1 65%); */
+ /* opacity: .6%; */
+
+   background: #c04848; /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #c04848, #480048); /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #c04848, #480048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ position: fixed !important;
+ height: 64px !important;
+width: 100%;
+  z-index: 6;
+
+}
+@media only screen and (max-width: 992px){
+  .brand-logo{
+    top:auto !important;
+  }
+}
+
+@media only screen and (min-width: 993px){
+ #logo{
+  margin-top: .45%;
+  left: 55px;
+}
+/* .brand-logo{
+  top:auto !important;
+} */
+.nav-wrapper a{
+  left: 50%;
+}
+}
+.nav-wrapper a {
+  position: fixed;
+  cursor: pointer;
+  top: 4.5vh;
+  /* left: 50%; */
+  color: white;
+  transform: translate3d(-50%, -50%, 0);
+  /* padding: 0.7em calc(0.7em * 1.2); */
+  display: inline-block;
+  border: 3px solid transparent;
+  position: relative;
+  /* font-size: .8em; */
+  letter-spacing: 0.07em;
+  padding: 0px 40px;
+}
+.nav-wrapper a .text {
+  font-family: proxima-nova;
+  transform: translate3d(0, 0.7em, 0);
+  display: block;
+  transition: transform 0.4s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+}
+.nav-wrapper a:after {
+  /* position: absolute; */
+  content: '';
+  bottom: -3px;
+  left: calc(0.7em * 1.2);
+  right: calc(0.7em * 1.2);
+  height: 3px;
+  background: #f26522;
+  z-index: -1;
+  transition: transform 0.8s cubic-bezier(1, 0, 0.37, 1) 0.2s, right 0.2s cubic-bezier(0.04, 0.48, 0, 1) 0.6s, left 0.4s cubic-bezier(0.04, 0.48, 0, 1) 0.6s;
+  transform-origin: left;
+}
+.nav-wrapper .line {
+  position: absolute;
+  background: #f41753;
+  /* background: linear-gradient(to left, #ff6600 2%, #9900cc 65%); */
+}
+.nav-wrapper .line.-right, .line.-left {
+  width: 4px;
+  bottom: 5px;
+  top: 1px;
+  transform: scale3d(1, 0, 1);
+}
+.nav-wrapper .line.-top, .line.-bottom {
+  height: 4px;
+    left: -2px;
+    right: -2px;
+  transform: scale3d(0, 1, 1);
+}
+.nav-wrapper .line.-right {
+  right: -2px;
+  transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.23s;
+  transform-origin: top;
+}
+.nav-wrapper .line.-top {
+  top: -2px;
+  transition: transform 0.08s linear 0.43s;
+  transform-origin: left;
+}
+.nav-wrapper .line.-left {
+  left: -2px;
+  transition: transform 0.08s linear 0.51s;
+  transform-origin: bottom;
+}
+.nav-wrapper .line.-bottom {
+  bottom: 3px;
+  transition: transform 0.3s cubic-bezier(1, 0, 0.65, 1.01);
+  transform-origin: right;
+}
+.nav-wrapper a:hover .text, a:active .text {
+  transform: translate3d(0, 0, 0);
+  transition: transform 0.6s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+}
+.nav-wrapper a:hover:after, a:active:after {
+  transform: scale3d(0, 1, 1);
+  right: -3px;
+  left: -3px;
+  transform-origin: right;
+  transition: transform 0.2s cubic-bezier(1, 0, 0.65, 1.01) 0.17s, right 0.2s cubic-bezier(1, 0, 0.65, 1.01), left 0s 0.3s;
+}
+.nav-wrapper a:hover .line, a:active .line {
+  transform: scale3d(1, 1, 1);
+}
+.nav-wrapper a:hover .line.-right, a:active .line.-right {
+  transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.2s;
+  transform-origin: bottom;
+}
+.nav-wrapper a:hover .line.-top, a:active .line.-top {
+  transition: transform 0.08s linear 0.4s;
+  transform-origin: right;
+}
+.nav-wrapper a:hover .line.-left, a:active .line.-left {
+  transition: transform 0.08s linear 0.48s;
+  transform-origin: top;
+}
+.nav-wrapper a:hover .line.-bottom, a:active .line.-bottom {
+  transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s;
+  transform-origin: left;
+}

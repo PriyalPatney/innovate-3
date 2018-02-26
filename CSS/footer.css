@@ -1,0 +1,24 @@
+.footer {
+background: transparent;
+position: fixed;
+margin-top: 13%;
+left: 36%;
+margin: auto;
+bottom: 0;
+/* margin-left: auto; */
+height: 110px;
+width: 100%;
+color: black;
+/* text-align:center; */
+}
+
+.footer a {
+float: left;
+margin: 25px 1px 10px 70px;
+}
+
+@media only screen and (max-width: 870px) {
+  .footer a {
+   visibility: hidden;
+  }
+}

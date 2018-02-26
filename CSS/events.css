@@ -1,0 +1,14 @@
+body{zoom: 0.8;
+    zoom: 80%;
+}
+.container{
+  margin-top: 150px;
+  opacity: 0.8;
+}
+
+.container img:hover {
+
+}
+.row {
+  margin-top: 5%;
+}

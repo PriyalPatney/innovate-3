@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="stylesheet" href="CSS/nav.css">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <!--Import materialize.css-->
+      <!-- <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"> -->
+      <!-- Compiled and minified CSS -->
+       <link rel="stylesheet" href="materialize/css/materialize.css">
+
+       <!-- Compiled and minified JavaScript -->
+       <script src="materialize/js/materialize.js"></script>
+<!-- <script src="materialize/js/materialize.min.js"></script> -->
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <style media="screen">
+        /* nav{
+         background-color: rgba(0, 121, 107,.8);
+          background-color: inherit;
+        } */
+        /* .tt{
+          margin: 5px 1px 10px 70px;
+        } */
+        .nav-wrapper .logo{
+          margin-left: 3px;
+        }
+        /* #logo{
+          margin-top: .78%;
+        } */
+      </style>
+    </head>
+
+    <body>
+      <!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+ <li><a href="#!">one</a></li>
+ <li><a href="#!">two</a></li>
+ <li class="divider"></li>
+ <li><a href="#!">three</a></li>
+</ul>
+      <nav >
+     <div class="nav-wrapper">
+
+</ul>
+     <a href="index.html" id="logo" class="brand-logo tt">
+       <img width="69" src="assets/logoNav.png">
+
+     </a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse "><i class="material-icons">menu</i></a>
+     <ul id="nav-mobile" class="right hide-on-med-and-down">
+       <li><a class="tt" href="aboutus.html"><span class="line -right"></span>
+       <span class="line -top"></span>
+       <span class="line -left"></span>
+       <span class="line -bottom"></span>About</a></li>
+       <li><a class="tt" href="events.html"><span class="line -right"></span>
+       <span class="line -top"></span>
+       <span class="line -left"></span>
+       <span class="line -bottom"></span>Events</a></li>
+       <li><a class="tt" href="teacherfaculty.html"><span class="line -right"></span>
+       <span class="line -top"></span>
+       <span class="line -left"></span>
+       <span class="line -bottom"></span>coordinators</a></li>
+       <li><a class="tt" href="signup.html"><span class="line -right"></span>
+       <span class="line -top"></span>
+       <span class="line -left"></span>
+       <span class="line -bottom"></span>signup</a></li>
+
+
+
+       <!-- Dropdown Trigger -->
+     <!-- <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li> -->
+
+     </div>
+   </ul>
+
+
+     </nav>
+     <ul class="side-nav" id="mobile-demo">
+      <li><a href="aboutus.html">About</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="teacherfaculty.html">coordinators</a></li>
+      <li><a href="signup.html">signup</a></li>
+     </ul>
+
+      <!--Import jQuery before materialize.js-->
+      <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
+      <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
+    </body>
+    <script>
+    $(document).ready(function(){
+      $(".dropdown-button").dropdown();
+       $(".button-collapse").sideNav();
+    });
+
+    </script>
+
+  </html>

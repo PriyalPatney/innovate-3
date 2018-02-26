@@ -1,0 +1,25 @@
+#container{
+  height: 500px;
+  margin-top: 50px;
+  opacity: 0.8;
+overflow: hidden !important;
+
+}
+
+.card-image img {
+  height: 493px;
+
+}
+
+@media only screen and (max-width: 650px) {
+  #container img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .card-content {
+    overflow: scroll;
+    /* background-image: image("assets/innovate.png"); */
+
+  }
+}
