@@ -1,67 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>coordinator</title>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="CSS/nav.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <!--Import materialize.css-->
-    <!-- <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"> -->
-    <!-- Compiled and minified CSS -->
-     <link rel="stylesheet" href="materialize/css/materialize.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!--Import materialize.css-->
+  <!-- <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"> -->
+  <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="materialize/css/materialize.css">
 
-     <!-- Compiled and minified JavaScript -->
-     <script src="materialize/js/materialize.js"></script>
- <link rel="stylesheet" href="CSS/index.css">
- <link rel="stylesheet" href="CSS/particle.css">
- <style media="screen">
- .nav-wrapper .logo{
-   margin-left: 3px;
- }
+   <!-- Compiled and minified JavaScript -->
+   <script src="materialize/js/materialize.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <style media="screen">
+    .nav-wrapper .logo{
+    margin-left: 3px;
+  }
+    </style>
+    <script>
+  $(document).ready(function(){
+    $(".dropdown-button").dropdown();
+     $(".button-collapse").sideNav();
+  });
 
-#roww {
-  margin-left: 10%;
-}
-
-.card {
-  width: 220px;
-  height: 260px;
-  /* transition: box-shadow 1s; */
-
-}
-.container img {
-  height: 200px;
-}
-.card:hover {
-  box-shadow: 10px 10px black;
-}
-
-.row {
-  margin-top: 5%;
-}
-
- </style>
- <style>
- body {
-   -moz-transform: scale(0.95, 0.95); /* Moz-browsers */
-   zoom: 0.95; /* Other non-webkit browsers */
-   zoom: 95%; /* Webkit browsers */
-}
- }
- </style>
- <script>
- $(document).ready(function(){
-   $(".dropdown-button").dropdown();
-    $(".button-collapse").sideNav();
- });
-
- </script>
-  </head>
-  <body>
-    <div id="particles-js" style="overflow: hidden">
+  </script>
+</head>
+<body>
+    <div id="particles-js" class="back-fixed">
         <canvas class="particles-js-canvas-el" width="3360" height="1102" style="width: 100%; height: 100%;"></canvas>
     </div>
+
+    <!-- <div class="navSelf">
+
+    </div> -->
     <div class="navStart">
       <ul id="dropdown1" class="dropdown-content">
        <li><a href="#!">one</a></li>
@@ -87,7 +63,7 @@
              <span class="line -top"></span>
              <span class="line -left"></span>
              <span class="line -bottom"></span>Events</a></li>
-             <li><a class="tt" href="teacherfaculty.html"><span class="line -right"></span>
+             <li><a class="tt" href="coordinator.html"><span class="line -right"></span>
              <span class="line -top"></span>
              <span class="line -left"></span>
              <span class="line -bottom"></span>coordinators</a></li>
@@ -114,148 +90,102 @@
            </ul>
 
     </div>
-<div class="container">
 
- <div class="row">
-   <div class="col s12 m6 l3"><p>
-      <div class="row">
-         <div class="col s12 m7 hey">
-           <div class="card">
-             <div class="card-image">
-               <img src="assets/coordinatorTemplate.png">
-               <span class="card-title">Name</span>
-             </div>
-             <div class="card-content">
-               <p>Information
-              </p>
-             </div>
+    <div class="mainStage">
 
-           </div>
-         </div>
-         <div class="col s12 m7 hey">
-           <div class="card">
-             <div class="card-image">
-               <img src="assets/coordinatorTemplate.png">
-               <span class="card-title">Name</span>
-             </div>
-             <div class="card-content">
-               <p>Information
-              </p>
-             </div>
-
-           </div>
-
-         </div>
-       </div></p></div>
-   <div class="col s12 m6 l3"><p>
-     <div class="row">
-        <div class="col s12 m7 hey">
-          <div class="card">
-            <div class="card-image">
-              <img src="assets/coordinatorTemplate.png">
-              <span class="card-title">Name</span>
+        <div class="link-box">
+            <div class="container">
+                <span class="link link1">Conveners</span>
+                <span class="link link2">Faculty coordinator</span>
+                <span class="link link3">Student coordinator</span>
             </div>
-            <div class="card-content">
-              <p>Information.
-             </p>
-            </div>
-
-          </div>
-        </div>
-        <div class="col s12 m7 hey">
-          <div class="card">
-            <div class="card-image">
-              <img src="assets/coordinatorTemplate.png">
-              <span class="card-title">Name</span>
-            </div>
-            <div class="card-content">
-              <p>Information.
-             </p>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-   </p></div>
-   <div class="col s12 m6 l3"><p>
-     <div class="row">
-        <div class="col s12 m7 hey">
-          <div class="card">
-            <div class="card-image">
-              <img src="assets/coordinatorTemplate.png">
-              <span class="card-title">Name</span>
-            </div>
-            <div class="card-content">
-              <p>Information.
-             </p>
-            </div>
-
-          </div>
-        </div>
-        <div class="col s12 m7 hey">
-          <div class="card">
-            <div class="card-image">
-              <img src="assets/coordinatorTemplate.png">
-              <span class="card-title">Name</span>
-            </div>
-            <div class="card-content">
-              <p>Information.
-             </p>
-            </div>
-
-          </div>
-
         </div>
 
-      </div
-   </p></div>
-   <div class="col s12 m6 l3"><p>
-     <div class="row">
-        <div class="col s12 m7 hey">
-          <div class="card">
-            <div class="card-image">
-              <img src="assets/coordinatorTemplate.png">
-              <span class="card-title">Name</span>
+        <div class="section-s conv">
+            <div class="title"></div>
+            <div class="box">
+                <div class="image" style="background-image: url('images/mohan.jpeg')"></div>
+                <div class="detail">
+                    <span class="name">mohan sir</span>
+                    <span class="dept">C.S.E</span>
+                </div>
             </div>
-            <div class="card-content">
-              <p>Information.
-             </p>
+            <div class="box">
+                <div class="image" style="background-image: url('images/reeti.jpg')"></div>
+                <div class="detail">
+                    <span class="name">MRS. REETI KULSHRESTHA</span>
+                    <span class="dept">CDC DEPARTMENT</span>
+                </div>
             </div>
-
-          </div>
-
         </div>
-        <div class="col s12 m7 hey">
-          <div class="card">
-            <div class="card-image">
-              <img src="assets/coordinatorTemplate.png">
-              <span class="card-title">Name</span>
-            </div>
-            <div class="card-content">
-              <p>Information.
-             </p>
-            </div>
 
-          </div>
+        <div class="section section-tech">
+            <span class="spacer"></span>
+            <div class="container">
 
+            </div>
         </div>
-      </div>
-   </p></div>
- </div></div>
-</div>
 
-<div class="footerSelf">
+        <div class="section section-stu">
+            <span class="spacer"></span>
+            <div class="container">
+            </div>
+        </div>
 
-</div>
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script type="text/javascript">
-// $(".navSelf").load("nav.html");
-$(".footerSelf").load("footer.html");
-</script>
-<script src="javaScript/particle.js"></script>
-<script src="javaScript/particlejson.json"></script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-  </body>
+        <div class="footer" style="margin-top: 100px">
+            <div class="social-media">
+                <a href="https://facebook.com/innovatesrmncr" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://instagram.com/innovatesrmncr" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/innovatesrmncr" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://youtube.com/innovatesrmncr" target="_blank"><i class="fa fa-youtube"></i></a>
+            </div>
+            <span class="divider"></span>
+            <div class="more-desc">
+                <div class="goto-person">
+                    <div class="gp"><div class="img" style="background-image: url('images/mohan.jpeg')"></div> <span class="name">M.Mohan Sir</span></div>
+                    <div class="gp"><div class="img" style="background-image: url('images/reeti.jpg')"></div> <span class="name">Reete Ma'am</span></div>
+                </div>
+                <div class="devs">
+                    <div class="container"><span class="name">Ishan</span><span class="name">Aditya</span> </div>
+                    <div class="container"><span class="name">Priyal</span><span class="name">Yasir</span><span class="name">Shivam Gupta</span> </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="javaScript/td.json"></script>
+    <script src="javaScript/stu.json"></script>
+    <script src="javaScript/coordinator.js"></script>
+    <script src="javaScript/particle.js"></script>
+    <script src="javaScript/jquery-3.3.1.min.js"></script>
+    <script src="javaScript/particlejson.json"></script>
+
+
+    <script>
+        $(document).ready(function () {
+
+                 // $(".navSelf").load("nav.html");
+
+                $('.link1').click(function () {
+                    $('html, body').animate({
+                        scrollTop: $(".conv").offset().top - 100
+                    }, 500)
+                }),
+                    $('.link2').click(function () {
+                        $('html, body').animate({
+                            scrollTop: $(".section-tech").offset().top - 80
+                        }, 1000)
+                    }),
+                    $('.link3').click(function () {
+                        $('html, body').animate({
+                            scrollTop: $(".section-stu").offset().top - 80
+                        }, 1000)
+                    })
+            });
+    </script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+</body>
 </html>

@@ -1,0 +1,104 @@
+[{
+    "1" : {
+        "name" : "Aman Gupta",
+        "dept" : "CDC DEPARTMENT",
+        "link" : "pics/AmanGupta"
+    },
+    "2" : {
+        "name" : "Ashish Rawat",
+        "dept" : "CDC DEPARTMENT",
+        "link" : "pics/AshishRawat"
+    },
+    "3" : {
+        "name" : "Mahima Taneja",
+        "dept" : "IT DEAPRTMENT",
+        "link" : "pics/MahimaTaneja"
+    },
+    "4" : {
+        "name" : "Punit Taluja",
+        "dept" : "IT DEAPRTMENT",
+        "link" : "pics/PunitTaluja"
+    },
+    "5" : {
+        "name" : "Anmol Bansal",
+        "dept" : "MBA DEPARTMENT",
+        "link" : "pics/AnmolBansal"
+    },
+    "6" : {
+        "name" : "Anmol",
+        "dept" : "MBA DEPARTMENT",
+        "link" : "pics/Anmol"
+    },
+    "7" : {
+        "name" : "Madhukar Vyas",
+        "dept" : "ECE DEPARTMENT",
+        "link" : "pics/MadhukarVyas"
+    },
+    "8" : {
+        "name" : "Shreeya Srivastav",
+        "dept" : "ECE DEPARTMENT",
+        "link" : "pics/ShreeyaSrivastav"
+    },
+    "9" : {
+        "name" : "Prakhar",
+        "dept" : "DEPARTMENT OF APPLIED SCIENCE",
+        "link" : "pics/Prakhar"
+    },
+    "10" : {
+        "name" : "Manan",
+        "dept" : "DEPARTMENT OF APPLIED SCIENCE",
+        "link" : "pics/Manan"
+    },
+    "11" : {
+        "name" : "Shivang Kesari",
+        "dept" : "CSE DEPARTMENT",
+        "link" : "pics/ShivangKesari"
+    },
+    "12" : {
+        "name" : "Shubham Anand",
+        "dept" : "CSE DEPARTMENT",
+        "link" : "pics/ShubhamAnand"
+    },
+    "13" : {
+        "name" : "Subhya Jaiswal",
+        "dept" : "EEE DEPARTMENT",
+        "link" : "pics/SubhyaJaiswal"
+    },
+    "14" : {
+        "name" : "Akanksha Srivastava",
+        "dept" : "EEE DEPARTMENT",
+        "link" : "pics/AkankshaSrivastava"
+    },
+    "15" : {
+        "name" : "Abhijeet Pratap Singh",
+        "dept" : "CIVIL",
+        "link" : "pics/AbhijeetPratapSingh"
+    },
+    "16" : {
+        "name" : "Divyansh Shukla",
+        "dept" : "CIVIL",
+        "link" : "pics/DivyanshShukla"
+    },
+    "17" : {
+        "name" : "Abdullah Zameer",
+        "dept" : "MECHANICAL DEPARTMENT",
+        "link" : "pics/AbdullahZameer"
+    },
+    "18" : {
+        "name" : "Ankit Sonagra",
+        "dept" : "MECHANICAL DEPARTMENT",
+        "link" : "pics/AnkitSonagra"
+    },
+    "19" : {
+        "name" : "Gurpreet Singh",
+        "dept" : "EFL",
+        "link" : "pics/GurpreetSingh"
+    },
+    "20" : {
+        "name" : "Shivani Badhwar",
+        "dept" : "EFL",
+        "link" : "pics/ShivaniBadhwar"
+    }
+
+
+}]
