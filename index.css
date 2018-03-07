@@ -31,11 +31,14 @@ width: 319px;
 
 }
 #mar{
-  left:123px;
+  left: 177px;
 }
-
-body #content {
-  position: absolute;
-    top: 0;
-    right: 0;
+#content {
+    position: relative;
+}
+body #content img {
+    position: absolute;
+    top: 0px;
+    right: 22px;
+    margin-top: -22%;
 }
