@@ -7,7 +7,7 @@
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
      <link rel="stylesheet" href="materialize/css/materialize.css">
-
+  <link rel="stylesheet" href="CSS/nav.css">
      <!-- Compiled and minified JavaScript -->
      <script src="materialize/js/materialize.js"></script>
     <link rel="stylesheet" href="signup.css">
@@ -21,7 +21,8 @@
 
     <title>signup</title>
     <style>
-    .nav-wrapper .logo{
+
+    .nav-wrapper .logo {
       margin-left: 3px;
     }
   .form  body {
@@ -37,12 +38,77 @@
         font-size: 65%;
   }
     </style>
+    <script>
+  $(document).ready(function(){
+    $(".dropdown-button").dropdown();
+     $(".button-collapse").sideNav();
+  });
 
+  </script>
   </head>
   <body>
     <div id="particles-js" style="overflow: hidden; overflow-y:hidden;">
         <canvas class="particles-js-canvas-el" width="3360" height="1102" style="width: 100%; height: 100%;"></canvas>
     </div>
+    <!-- navbar -->
+    <div class="navStart">
+      <ul id="dropdown1" class="dropdown-content">
+       <li><a href="#!">one</a></li>
+       <li><a href="#!">two</a></li>
+       <li class="divider"></li>
+       <li><a href="#!">three</a></li>
+      </ul>
+            <nav>
+           <div class="nav-wrapper">
+
+      </ul>
+           <a href="index.html" id="logo" class="brand-logo tt">
+             <img width="69" src="assets/logoNav.png">
+
+           </a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse "><i class="material-icons">menu</i></a>
+           <ul id="nav-mobile" class="right hide-on-med-and-down">
+             <li><a class="tt" href="aboutus.html"><span class="line -right"></span>
+             <span class="line -top"></span>
+             <span class="line -left"></span>
+             <span class="line -bottom"></span>About Us</a></li>
+             <li><a class="tt" href="events.html"><span class="line -right"></span>
+             <span class="line -top"></span>
+             <span class="line -left"></span>
+             <span class="line -bottom"></span>Events</a></li>
+             <li><a class="tt" href="schedule.html"><span class="line -right"></span>
+             <span class="line -top"></span>
+             <span class="line -left"></span>
+             <span class="line -bottom"></span>Schedule</a></li>
+             <li><a class="tt" href="coordinator.html"><span class="line -right"></span>
+             <span class="line -top"></span>
+             <span class="line -left"></span>
+             <span class="line -bottom"></span>Coordinators</a></li>
+             <li><a class="tt" href="signup.html"><span class="line -right"></span>
+             <span class="line -top"></span>
+             <span class="line -left"></span>
+             <span class="line -bottom"></span>Signup</a></li>
+
+
+
+             <!-- Dropdown Trigger -->
+           <!-- <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li> -->
+
+           </div>
+         </ul>
+
+
+           </nav>
+           <ul class="side-nav" id="mobile-demo">
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+
+            <li><a href="teacherfaculty.html">Coordinators</a></li>
+            <li><a href="signup.html">Signup</a></li>
+           </ul>
+
+
     <div class="googleform">
 
     </div>
@@ -88,11 +154,11 @@
                     <span class="desg">Mo. 9810496526</span>
 
 
-                    <div class="gp"> <span class="name">Mr. M Mohan</span></div>
+                    <div class="gp"> <span class="name">Mr. M MOHAN</span></div>
                     <span class="desg">AP CSE-department</span>
                 </div>
                 <div class="devs">
-                  <span class="name">Web Developer's :-</span>
+                  <span class="name">Web Developers :-</span>
                     <div class="container"><span class="name">Ishan</span><span class="name">Aditya</span></div>
                     <div class="container"><span class="name">Priyal</span><span class="name">Yasir</span><span class="name">Shivam</span> </div>
                 </div>
